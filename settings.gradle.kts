@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android Courses"
 include(":app")
- 
+include(":features:onboarding")
