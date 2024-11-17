@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "ru.faimizufarov.signup"
+    namespace = "ru.faimizufarov.common"
     compileSdk = 34
 
     defaultConfig {
@@ -24,9 +24,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-    buildFeatures {
-        viewBinding = true
     }
 }
 
