@@ -39,7 +39,7 @@
         android:id="@+id/onboardingContinueButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/continue_button_background"
+        android:background="@drawable/green_button_background"
         android:text="@string/continue_text"
         android:textSize="14sp"
         android:textColor="@color/white"
