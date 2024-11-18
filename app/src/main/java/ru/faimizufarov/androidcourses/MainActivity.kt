@@ -1,14 +1,12 @@
 package ru.faimizufarov.androidcourses
 
 import android.os.Bundle
-import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import ru.faimizufarov.androidcourses.databinding.ActivityMainBinding
 import ru.faimizufarov.onboarding.OnboardingFragment
-import ru.faimizufarov.onboarding.OnboardingScreen
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -23,8 +21,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        binding.bottomNavView.visibility = View.GONE
-        OnboardingFragment.newInstance()
     }
 }
