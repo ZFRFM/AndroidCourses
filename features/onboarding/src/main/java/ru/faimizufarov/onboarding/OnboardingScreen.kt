@@ -56,9 +56,7 @@ fun OnboardingScreen() {
                 .fillMaxWidth()
                 .padding(horizontal = dimensionResource(ru.faimizufarov.common.R.dimen.medium))
                 .padding(bottom = dimensionResource(ru.faimizufarov.common.R.dimen.large)),
-            onClick = {
-                TODO("open sing up screen")
-            },
+            onClick = {  },
             colors = ButtonDefaults.buttonColors(
                 containerColor = Colors.green,
                 contentColor = Colors.white
