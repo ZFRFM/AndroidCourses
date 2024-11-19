@@ -23,3 +23,4 @@ rootProject.name = "Android Courses"
 include(":app")
 include(":features:onboarding")
 include(":common")
+include(":features:signup")
